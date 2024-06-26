@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📊 Queries no SAP Business One
 
 Bem-vindo ao repositório do projeto de queries do SQL Server e SAP HANA para SAP Business One. 
@@ -13,7 +14,12 @@ Os bancos de dados de demonstração localizados contêm um ambiente SAP Busines
 
 https://community.sap.com/t5/enterprise-resource-planning-blogs-by-sap/localized-demo-databases-now-available-for-sap-business-one-10-0-fp-2011/ba-p/13488424
 https://help.sap.com/docs/SAP_BUSINESS_ONE?locale=en-US
+=======
+# 📊 Queries SAP Business One
+Welcome to the SQL Server and SAP HANA Query Project repository for SAP Business One. This document provides a variety of queries from simple to more complex for the SAP Business One system.
+>>>>>>> f51655d58cb731a3071e61122c9285edaf81f69f
 
+Bem-vindo ao repositório do projeto de queries do SQL Server e SAP HANA para SAP Business One. Este documento fornece várias consultas das simples a mais complexa para o sistema SAP Business One.
 
 # 📊 SQL Server Express
 Para usar o banco de dados da SAP use o SQL Server Express, uma versão gratuita do Microsoft SQL Server para testar consultas de banco de dados. O SQL Server Express é uma boa opção para desenvolvimento e teste porque é gratuito para download e uso.
