@@ -20,7 +20,8 @@ No grupo "Implementation", "Localized Demo Databases for SAP Business One(PDF)".
 ### 📊 SQL Server Express
 Para usar o banco de dados da SAP use o SQL Server Express, uma versão gratuita do Microsoft SQL Server para testar consultas de banco de dados. O SQL Server Express é uma boa opção para desenvolvimento e teste porque é gratuito para download e uso.
 
-Baixe e instale o SQL Server Express https://www.microsoft.com/en-us/download/details.aspx?id=101064
-Instale o SQL Server Management Studio (SSMS) https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+[Baixe e instale o SQL Server Express](https://www.microsoft.com/en-us/download/details.aspx?id=101064)
+
+[Instale o SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 
 ---
