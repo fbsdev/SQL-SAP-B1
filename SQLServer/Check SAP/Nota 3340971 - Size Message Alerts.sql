@@ -1,0 +1,24 @@
+-- Size Message Alerts
+
+SELECT
+T0.USER_CODE,
+T0.U_NAME,
+T0.Locked, 
+COUNT(T1.AlertCode) AS OAIBRecords,
+COUNT(T2.AlertCode) AS OAOBRecords,
+COUNT(T3.AlertCode) AS AOB1Records,
+COUNT(T4.Code) AS OALRRecords,
+COUNT(T5.Code) AS ALR1Records,
+COUNT(T6.Code) AS ALR2Records,
+COUNT(T7.Code) AS ALR3Records
+FROM OUSR T0
+LEFT JOIN OAIB T1 ON T1.UserSign = T0.USERID
+LEFT JOIN OAOB T2 ON T2.AlertCode = T1.AlertCode
+LEFT JOIN AOB1 T3 ON T3.AlertCode = T1.AlertCode
+LEFT JOIN OALR T4 ON T4.Code = T1.AlertCode
+LEFT JOIN ALR1 T5 ON T5.Code = T1.AlertCode
+LEFT JOIN ALR1 T6 ON T6.Code = T1.AlertCode
+LEFT JOIN ALR1 T7 ON T7.Code = T1.AlertCode
+WHERE T0.Locked = 'N'
+GROUP BY T0.USER_CODE, T0.U_NAME, T0.Locked
+ORDER BY COUNT(T1.UserSign) DESC

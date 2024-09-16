@@ -1,8 +1,3 @@
---Desenvolvido por Kelvin Veloso
---22 02 2016
---Libera espaço do HD limpando os logs e espaços vazios nas bases
-
-
 declare @query nvarchar(max)
 
 set @query = 
@@ -43,11 +38,8 @@ set @query2 =
 
 '
 USE ['+@base+'];
-
 ALTER DATABASE ['+@base+'] SET RECOVERY SIMPLE;
-
 DBCC SHRINKFILE (N'''+@Arqlogico+''');
-
 '
 
 exec (@query2)
